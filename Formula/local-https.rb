@@ -2,19 +2,19 @@ class LocalHttps < Formula
   desc "Run any local app with HTTPS and a custom domain"
   homepage "https://github.com/vikas-0/local-https"
   url "https://github.com/vikas-0/local-https/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "<SOURCE_SHA>"
+  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
   license "MIT"
 
   depends_on "ruby"
 
   resource "thor" do
     url "https://rubygems.org/downloads/thor-1.3.1.gem"
-    sha256 "<THOR_SHA>"
+    sha256 "fa7e3471d4f6a27138e3d9c9b0d4daac9c3d7383927667ae83e9ab42ae7401ef"
   end
 
   resource "webrick" do
     url "https://rubygems.org/downloads/webrick-1.9.1.gem"
-    sha256 "<WEBRICK_SHA>"
+    sha256 "b42d3c94f166f3fb73d87e9b359def9b5836c426fc8beacf38f2184a21b2a989"
   end
 
   def install
