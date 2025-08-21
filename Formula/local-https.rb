@@ -2,7 +2,7 @@ class LocalHttps < Formula
   desc "Run any local app with HTTPS and a custom domain"
   homepage "https://github.com/vikas-0/local-https"
   url "https://github.com/vikas-0/local-https/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "c7f888900d3dac4fe5e8d1b8fe7610d986731d433732e6124d1c823e02859acb"
   license "MIT"
 
   depends_on "ruby"
